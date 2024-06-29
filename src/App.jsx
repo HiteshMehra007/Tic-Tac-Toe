@@ -73,6 +73,7 @@ function App() {
       }
     }
 
+    if(moves == 9) return "Tie";
     return "";
     
   };
